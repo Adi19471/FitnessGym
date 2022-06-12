@@ -33,7 +33,7 @@
     }
     
     body {
-        background: #192a56
+        background: #330281
     }
     
     section {
@@ -654,6 +654,9 @@
         -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         gap: 1.5rem;
+        margin-left: 350px;
+        /* border: 20px solid gray; */
+        width: 50px;
     }
     
     .footer .box-container .box h3 {
